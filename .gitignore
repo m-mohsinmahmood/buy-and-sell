@@ -1,0 +1,115 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compiled output
+/dist
+/out-tsc
+/build
+
+# Node modules
+/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.swp
+
+# Angular build artifacts
+/.angular
+/.angular/cache
+/.angular/cache/**
+
+# Generated files
+package-lock.json
+yarn.lock
+
+# Environment files (Sensitive information)
+src/environments/environment.prod.ts
+src/environments/environment.ts
+
+# Coverage reports
+/coverage
+
+# Dependency directories
+bower_components
+
+# Testing artifacts
+/karma.conf.js
+/test.ts
+/protractor.conf.js
+
+# Compiled CSS/SASS files
+*.css.map
+*.sass.map
+*.scss.map
+
+# Miscellaneous
+*.log
+*.sqlite
+*.sqlite3
+*.env
+
+# Files generated during builds
+*.tgz
+*.zip
+
+# MacOS-specific files
+.AppleDouble
+.LSOverride
