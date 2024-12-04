@@ -1,1 +1,8 @@
-<p>listings-page works!</p>
+<div>
+  <div *ngFor="let data of listing">
+    <a [routerLink]="listings/data.id0">
+      <h3>{{data.name}} - $ {{data.price}}</h3>
+    </a>
+
+  </div>
+</div>
