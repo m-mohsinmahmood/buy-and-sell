@@ -1,7 +1,7 @@
 <div>
-  <div *ngFor="let data of listing">
-    <a [routerLink]="listings/data.id0">
-      <h3>{{data.name}} - $ {{data.price}}</h3>
+  <div class="p-2" *ngFor="let data of listing">
+    <a routerLink="/listings/{{data.id}}">
+      <h3 class="border- p-4 font-bold bg-gray-400">{{data.name}} - ${{data.price}}</h3>
     </a>
 
   </div>
